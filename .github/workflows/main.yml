@@ -1,1 +1,0 @@
-Test Case 1: Input: username และ password ถูกต้อง Expected Result: true Test Case 2: Input: username หรือ password ไม่ถูกต้อง Expected Result: false
