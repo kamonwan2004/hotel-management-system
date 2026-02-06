@@ -1,17 +1,1 @@
-name: CI Pipeline
-
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-
-    - name: Run basic check
-      run: echo "CI is working!"
+Test Case 1: Input: username และ password ถูกต้อง Expected Result: true Test Case 2: Input: username หรือ password ไม่ถูกต้อง Expected Result: false
